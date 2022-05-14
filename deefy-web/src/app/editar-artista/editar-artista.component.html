@@ -1,0 +1,15 @@
+<div class="col col-lg-6">
+    <label class="form-label">Nome</label>
+    <input
+      id="nome"
+      [(ngModel)]="nome"
+      type="text"
+      class="form-control"
+      placeholder="Mude o nome do artista aqui!">
+  </div>
+  
+  <button
+    type="button"
+    (click)="salvar()"
+    class="btn btn-primary"
+    style="margin-top: 15px; margin-left: 15px;">Salvar</button>
